@@ -1,104 +1,103 @@
 /* CSS Custom properties
 Flexbox
-CSS Grid
-Mobile-first workflow (@media "width: 375px") mobile (@media "width: 1440px")*/
-
-body {
-    background-color: hsl(233, 47%, 7%);
-    font-size: 15px;
-}
-
-section {
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.center-container {
-    background-color: hsl(244, 38%, 16%);
-    border-radius: 25px;
-    height: auto;
-    width: 80%;
-    display: flex;
-}
-
-.information-container {
-    max-width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5% 15% 5% 5%;
-}
-
-.meeting-image {
-    display: flex;
-    border-radius: 0 25px 25px 0;
-    height: 100%;
-    min-width: 50%;
-}
-
-
-img {
-    display: flex;   
-    width: 100%;
-    height: 540px;
-    border-radius: 0 25px 25px 0;
-    object-fit: fill;
-}
-
-
-.header, .info {
-    color: hsl(0, 0%, 100%);
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.header {
-    font-size: 2.5rem;
-}
-
-.info {
-    font-size: 2rem;
-}
-
-.info-stats {
-    display: grid;
-    grid-template-columns: repeat(3,150px);
-    gap: 0px 8%;
-}
-.description {
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Inter', sans-serif;
-}
-
-.stats {
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-.accent {
-    color: hsl(277, 64%, 61%);
-}
-
-
-footer {
-    position: fixed;
-    bottom: 0;
-}
-/* attribution style  */
-.attribution {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
+Mobile-first workflow (@media "width: 375px") mobile */
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Lexend Deca', sans-serif; */
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+}
+
+main {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.center-container {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 25px;
+  height: auto;
+  width: 70%;
+  display: flex;
+}
+
+.information-container {
+  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 13% 5% 5%;
+}
+
+.meeting-image {
+  display: flex;
+  border-radius: 0 25px 25px 0;
+  height: 540px;
+  min-width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/image-header-desktop.jpg);
+  background-color: hsl(277, 64%, 61%);
+  background-blend-mode: multiply;
+}
+
+.title-stats-preview,
+.statistics {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.title-stats-preview {
+  font-size: 2.5rem;
+}
+
+th,
+td {
+  width: 200px;
+  text-align: left;
+}
+
+.statistics {
+  font-size: 2rem;
+}
+
+.info-stats {
+  display: relative;
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+}
+
+.statistics-description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: hsl(277, 64%, 61%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+/* attribution style  */
+.attribution {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
