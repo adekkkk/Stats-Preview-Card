@@ -42,14 +42,14 @@ Main objective of this challenge is to have users be able to:
 
 ### What I learned
 
-The main challenge for this project is understanding the use of CSS to align elements in their desired positions. Having been exposed to a project with no backup code or even example code was very challenging in itself. Being provided with only a screenshot on how the page should look like and the fonts used was challenging in itself. Being able to create this page was a proud achievement in itself. I believe that I have managed to mimick the provided design quite accurately.
+The main challenge for this project is understanding the use of CSS to align elements in their desired positions. Having been exposed to a project with no backup code or even example code was very challenging in itself. Being provided with only a screenshot on how the page should look like and the fonts used was challenging in itself. Being able to create this page was a proud achievement in itself. I believe that I have managed to mimic the provided design quite accurately.
 
 
 ### Continued development
 
 As part of my continued development there's a major focus that need to be put on use of CSS to style the pages. This was my first attempt at such project and that have showed me which skills I'm lacking and what I should improve on.
 
-The main focus for now will be definately working on more project, keep practising the knowledge I have acquired through doing this project.
+The main focus for now will be definitely working on more project, keep practising the knowledge I have acquired through doing this project.
 Main areas of focus would be;
 - Working with CSS Flexbox and CSS grid alongside
 - Understanding the importance of semantic html and CSS
