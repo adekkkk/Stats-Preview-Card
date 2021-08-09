@@ -49,7 +49,7 @@ The main challenge for this project is understanding the use of CSS to align ele
 
 As part of my continued development there's a major focus that need to be put on use of CSS to style the pages. This was my first attempt at such project and that have showed me which skills I'm lacking and what I should improve on.
 
-The main focus for now will be definitely working on more project, keep practising the knowledge I have acquired through doing this project.
+The main focus for now will be definitely working on more projects and keep on practising the knowledge I have acquired through doing this challenge.
 Main areas of focus would be;
 - Working with CSS Flexbox and CSS grid alongside
 - Understanding the importance of semantic html and CSS
